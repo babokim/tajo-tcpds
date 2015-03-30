@@ -6,6 +6,7 @@ To run TPC-DS query, please run the following instruction.
 ==================================
 Run with test cluster.
  1. Download this package.
+    git clone https://github.com/babokim/tajo-tcpds.git
  2. Configuration
     vi conf/tajo-tpcds-env.sh
  3. Execute the following command.
@@ -21,7 +22,7 @@ Tajo cluster should be started on teh remove cluster.
  1. Generate TPC-DS test data set
     http://www.tpc.org/tpcds/
  2. Download this package.
-
+    git clone https://github.com/babokim/tajo-tcpds.git
  3. Configuration
     vi conf/tajo-tpcds-env.sh
     * set TAJO_MASTER_CLIENT_ADDR
@@ -31,8 +32,6 @@ Tajo cluster should be started on teh remove cluster.
     chmod 755 conf/*
     bin/run-remote.sh
 
-* Notice: Remote test doesn't validate the test result.
 ==================================
-
 TPC-DS test queries are located in "src/test/resources/tpcds/queries".
 Test program runs queries which are listed in the "query.list" file.
