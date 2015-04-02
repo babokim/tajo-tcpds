@@ -1,6 +1,6 @@
 ###############################################################################
 # The path of TPC-DS test data set
-export TPCDS_DATA_DIR=/Users/babokim/tmp/tpcds
+export TPCDS_DATA_DIR=/Users/seungunchoe/tpc-data/tpcds/data_set
 # export TPCDS_DATA_DIR=hdfs://127.0.0.1:9000/tpcds
 
 # tpcds database name in Tajo
