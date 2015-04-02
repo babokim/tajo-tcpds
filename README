@@ -13,6 +13,8 @@ Run with test cluster.
     chmod 755 bin/*
     chmod 755 conf/*
     bin/run-local.sh
+    bin/run-local-single.sh origin/q1.sql
+    bin/run-local-single.sh modified/q1.sql
 
 ==================================
 Run on the remote Tajo cluster.
