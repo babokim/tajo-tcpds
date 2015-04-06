@@ -66,7 +66,7 @@ public class TpcDSLocalTest extends TpcDsTest {
       System.out.println(eachQuery);
     }
     System.out.println("=================================================");
-
+    // Commit test
   }
 
   @Test
