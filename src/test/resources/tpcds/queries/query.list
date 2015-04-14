@@ -1,11 +1,6 @@
 modified/q3.sql
 modified/q7.sql
-
-###############################################################################
-# The result of q15 is different with hive because of FilterPushDown bug.
-#modified/q15.sql
-###############################################################################
-
+modified/q15.sql
 modified/q19.sql
 modified/q21.sql
 

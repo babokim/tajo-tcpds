@@ -1,6 +1,6 @@
 ###############################################################################
 # The path of TPC-DS test data set
-export TPCDS_DATA_DIR=/Users/seungunchoe/tpc-data/tpcds/data_set
+export TPCDS_DATA_DIR=/tmp/tpcds
 # export TPCDS_DATA_DIR=hdfs://127.0.0.1:9000/tpcds
 
 # tpcds database name in Tajo
@@ -21,7 +21,7 @@ export TPCDS_DATA_GEN=false
 # The path of TPC-DS data generator.
 # If TPCDS_DATA_GEN set true, this property is required.
 # TPCDS_DATA_GENERATOR generates test data set in TPCDS_DATA_DIR.
-# export TPCDS_DATA_GENERATOR=/Users/babokim/Downloads/tpcds-kit-master/tools/dsdgen
+# export TPCDS_DATA_GENERATOR=/tmp/tpcds-kit-master/tools/dsdgen
 
 ###############################################################################
 # Property to run on remote tajo cluster
