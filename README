@@ -38,4 +38,7 @@ Tajo cluster should be started on teh remove cluster.
 TPC-DS test queries are located in "src/test/resources/tpcds/queries".
 Test program runs queries which are listed in the "query.list" file.
 
+==================================
+31 queries run on the tajo-0.11.0-SNAPSHOT(2015.04.15)
+
 
